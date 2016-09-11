@@ -1,2 +1,2 @@
 # PUI2016_ss4977
-Assignments for Princ. Urb. Inf.
+Assignments for Principles Urban Informatics
