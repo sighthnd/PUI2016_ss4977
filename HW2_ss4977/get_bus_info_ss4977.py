@@ -38,9 +38,7 @@ else:
 
 site = "http://bustime.mta.info/api/siri/vehicle-monitoring.json"
 daturl = site + "?key=" + mtakey + "&LineRef=" + busroute
-
-site = "http://bustime.mta.info/api/siri/vehicle-monitoring.json"
-daturl = site + "?key=" + mtakey + "&LineRef=" + busroute
+daturl += "&VehicleMonitoringDetailLevel=calls"
 
 # Get the data from the server
 try:
@@ -74,8 +72,9 @@ for i in range(len(vehlist)):
     stName = "N/A"
     stDist = "N/A"
     if "OnwardCall" in posdat.keys():
-        stName = posdat["OnwardCall"]["StopPointName"]
-        stDist = posdat["OnwardCall"]["Extensions"]["Distances"]["PresentableDistance"]
+        call = posdat["OnwardCall"][0]
+        stName = call["StopPointName"]
+        stDist = call["Extensions"]["Distances"]["PresentableDistance"]
     fh.write(com.join([str(lat), str(lon), stName, stDist]))
     fh.write("\n")
 
