@@ -9,3 +9,5 @@ Assignment3.ipynb: Jupyter notebook for analyzing demographic data comparing pro
 I completed each of assignments on my own. In running the show_bus_location script directly from my laptop, I ran into difficulty relating to proxies. I discoverd a workaround to this at https://www.decalage.info/en/python/urllib2noproxy .
 
 I attempted to join Jonathan, Sebastian, Sofiya, Luis, and Melchor to help them through the assignments but did not manage to connect.
+
+Subsequently, I joined Jonathan, Sofiya and a few others for a session of developing the scripts. There I noticed Sofiya using the "VehicleMonitoringDetailLevel" argument to use with the call to the MTA server and was thus able to correct the lack of any stop name data from the previous script.
