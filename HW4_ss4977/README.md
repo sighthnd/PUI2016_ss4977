@@ -1,6 +1,6 @@
 Assignment 1
 
-Reviewed Tang's null hypothesis regarding citibike usage. Started by comparing the description of the null hypothesis with the formulation in the equation. Followed by describing how the what is in the citibike's data repository as it relates to what is needed to test the hypothesis and a review of Tang's data munging procedures. Finished with a discussion of how to use the output from the data munging to test the hypothesis, looking at the type of data and resultant test to use.
+Reviewed Tang's null hypothesis regarding citibike usage. Started by comparing the description of the null hypothesis with the formulation in the equation. Followed by describing how the what is in the citibike's data repository as it relates to what is needed to test the hypothesis and a review of Tang's data munging procedures. Finished with a discussion of how to use the output from the data munging to test the hypothesis, looking at the type of data and resultant test to use. Actual file is located in PUI2016_st1671 and has been merged into Tang's repository.
 
 I discussed collaborating with Ben Alpert, Sofiya Elkurin, Jonathan Geis, Sebastian and Luis, but wound up working on my own for the rest.
 
