@@ -1,0 +1,10 @@
+###a. Comments on Null & Alternative hypotheses
+Your Null Hypothesis and Alternative hypothesis are formulated correctly. However, you can make the null hypothesis better by specifying the metric you are going to measure and evaluate for the test. For instance, the metric can be the average number of people who enter Mid Manhattan from outside or of who leave Mid Manhattan per rush hour each day. Hence, the null hypothesis will be more specific and quantified such that there is no difference between the two mean values. 
+
+###b. Comments on Data wrangling 
+1. In term of the data preparation, you did a good job with extracing and processing data by defining the boundary for Mid Manhattan area and calculating the count of people who enter or leave Mid Manhattan per rush hour each day in the month.
+
+2. In the last graph, you divided the count of people by the standard deviation, the square root of the count, which helps normalize the data. For improvement, you can change the x values to the rush hours, so the graph shows the difference between the values of the two groups in each hour. If there is more people entering Mid Manhattan than leaving it in most of the rush hours, then the data is consistent with your alternative hypothesis.
+
+###c. Test Recommendation
+To test the H0, I recommend the ond-tailed t-test, which examines if the mean value of the number of riders, who enter Mid Manhattan is larger than that of riders, who leave Mid Manhattan duirng rush hours. The independent variable has two groups: the ones who enter Mid Manhattan from outside and the one who leave Mid Manhattan to go outside. The reason I chose this test because not only do you want to examine if there is any difference between the two group but you also want to see the difference is positive or negative (which one has a greater value). That's why one-tailed t-test is a suitable choice. Based on the last graph, the difference between the two group is not dramatic, so I will recommend the significance value of 5%. 
