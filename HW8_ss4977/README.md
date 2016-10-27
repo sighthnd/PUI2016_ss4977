@@ -1,0 +1,1 @@
+Contains a plot of demonstrating the Central Limit Theorem on the $\chi^2(1)$ distribution. The plot shows the behavior of the variance and other behavior of the distribution of the means of samples of $\chi^2(1)$ variables resembling the normal distribution as the sizes of the individual samples increases.
