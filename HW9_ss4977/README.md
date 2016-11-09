@@ -1,0 +1,13 @@
+## Initial things
+Had some communication with Sofiya Elyukin, Jonathan Geis, Sebastian Gutierrez, Ben Alpert, had Luis Melchor. Did most things on my own, but will note where I adopted from one of the others or offered my ideas.
+
+Loaded the 3-D array from Sina Kashuk's file into ndarray. Recast this array to type float allowing replacement of all instances of -1.0 with np.nan. Created pandas date_series from of 194 elements starting at 5/21/2010 and list of ride/fare types. Loaded the ndarray into a pandas Panel. Summed across items of the Panel to create DataFrame with just time and ride types, then across major axis to create DataFrame with time and station. Described how I used the Panel to others, but they didn't seem interested.
+
+## Task 1
+Summed across the columns of one of the DataFrame-s to create plain time series. Calculated mean and standard deviation and plotted the time series showing mean and 1 and 3 standard deviations off. Quickly saw the sharp plummet in October 2012 and selected it from the Series. From Sebastian I discovered that this was due to Hurricane Sandy.
+
+## Task 2
+Learned some things about plotting the time series of the ride types from Sebastian's example, but branched off for my own method. Started by segmenting the ride types according to usage levels. This allows avoiding plotting too many types over too wide a range which results in too many being bunched close together. Started by creating DataFrame that had descriptive statistics of each of the ride types. Defined procedure plot_rtype to plot individual ride types and plot_grp to invoke plot_rtype for each type in a group and produce descriptions around the plot. Produced four plots together containing time series (smoothed by using rolling_mean) of all the ride types. From which seven types were selected that potentially had steady movement. Produced DataFrame containing averages of the first 10 weeks, middle 10 weeks, and last 10 weeks for those seven ride types and verified that five were increasing and one was decreasing. Based on Sebastian, I added a plot showing the one decreasing type and the largest increasing type.
+
+## Task 3
+Started with plotting through time series of the stations (only showed a few of interest). Produced power spectra of each of the stations and sorted for those showing something of a peak that would indicate annual periodicity. This requires ignoring the first element of the spectrum. Plotted time series of the stations so identified and visually spotted four (32, 150, 194, and 327) that peak in ridership in the summer. Plotted the power spectra for those four stations.
