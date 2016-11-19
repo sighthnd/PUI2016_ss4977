@@ -35,5 +35,5 @@ and used that to plot a log-likelihood surface.
 ## Assignment 2
 The write up of my citibike experiment can be found at https://www.authorea.com/users/106728/articles/134506/_show_article
 
-# FBB very goodere
-simple idea, clean execusion, intsting result
+# FBB very good
+simple idea, clean execusion, interesting result
